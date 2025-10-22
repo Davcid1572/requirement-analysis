@@ -146,3 +146,40 @@ Validation is typically done through reviews, walkthroughs, and stakeholder feed
 ---
 
 Effective execution of these five activities guarantees that the software project starts on a solid foundation — minimizing risk, enhancing quality, and ensuring stakeholder satisfaction.
+
+## 📋 Types of Requirements
+
+Below are the two main types of requirements, with definitions and examples tailored for a booking management project (e.g. ticket or reservation system).
+
+### 1. Functional Requirements
+
+**Definition:**  
+Functional requirements describe **what** the system must do — the specific behaviors, features, and operations that deliver business value to users.
+
+**Examples (for a booking management system):**
+
+- A user can **search available slots or services** (e.g. rooms, seats, flights) based on date, location, or other filters.
+- The system allows users to **make a booking / reservation**, specifying user details, time, quantity, and confirmation.
+- Users can **cancel or modify** existing bookings (within policy limits).
+- The system should **send email or SMS notifications** upon booking confirmation, cancellation, or reminders.
+- Admin can **view, approve, or reject bookings**, see booking history, generate reports.
+- The system supports **payment processing**, integrating with payment gateways (e.g. card, mobile money).
+
+https://miro.medium.com/v2/resize:fit:720/format:webp/1*23U2OxzOo4R8arOJhFbtpw.png
+
+### 2. Non-functional Requirements
+
+**Definition:**  
+Non-functional requirements (NFRs) define **how** the system performs or under what constraints — quality attributes, performance, reliability, security, usability, etc.
+
+**Examples (for the same booking management system):**
+
+- **Performance / Response Time**: The system must respond to a search request within 2 seconds under 1,000 concurrent users.
+- **Availability / Uptime**: The system must be available at least 99.9% of the time (downtime < 8.76 hours/year).
+- **Scalability**: As usage grows, the system must handle doubling of load without degradation.
+- **Security**: All sensitive data (user credentials, payment info) must be stored encrypted. Communications must use TLS/SSL.
+- **Usability**: The booking interface must be intuitive; a new user should complete a booking in ≤ 5 steps.
+- **Maintainability**: The system should permit updates or fixes with minimal downtime (rolling deployments).
+- **Compatibility / Portability**: Must support modern browsers (Chrome, Firefox, Safari) and mobile devices (iOS, Android).
+
+https://miro.medium.com/v2/resize:fit:720/format:webp/1*Jv-59Dts74UJ8c1SeHAKVQ.png
