@@ -230,3 +230,37 @@ Below is the use case diagram for the **Booking Management System**, designed us
 ![Booking System Use Case Diagram](images/alx-booking-uc.png)
 
 -
+
+## ✅ Acceptance Criteria
+
+### 📘 What is Acceptance Criteria?
+
+**Acceptance Criteria** are predefined conditions that a software feature must meet to be accepted by the client, user, or product owner.  
+They define _what success looks like_ for each requirement or user story — ensuring the developed feature behaves as expected and satisfies business needs.
+
+---
+
+### 🌟 Importance in Requirement Analysis
+
+- **Clarity & Alignment:** They ensure all stakeholders (developers, testers, and clients) share a common understanding of what “done” means for each feature.
+- **Testability:** Each criterion provides a measurable condition that can be tested, making verification straightforward.
+- **Scope Control:** Helps prevent feature creep by defining exactly what should (and should not) be delivered.
+- **Quality Assurance:** Reduces ambiguity, improves communication, and ensures the final output matches user expectations.
+
+---
+
+### 🧩 Example — _Checkout Feature in Booking Management System_
+
+**Feature:** As a customer, I want to complete my booking and make a secure payment so that I can confirm my reservation.
+
+**Acceptance Criteria:**
+
+1. ✅ The system must display a checkout page summarizing the selected booking details (date, time, price, and service).
+2. ✅ The user must be able to choose a payment method (e.g., card, wallet, or bank transfer).
+3. ✅ The system must securely process the payment via the integrated payment gateway.
+4. ✅ If the payment is successful, the system must generate a booking confirmation and send an email/SMS notification to the user.
+5. ✅ If the payment fails, the system must display an appropriate error message and allow the user to retry or choose another method.
+6. ✅ All payment transactions must be logged with a unique transaction ID for tracking and auditing.
+7. ✅ The system must update the booking status to “Confirmed” only after successful payment validation.
+
+---
