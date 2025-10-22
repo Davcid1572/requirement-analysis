@@ -227,6 +227,6 @@ Use case diagrams are part of **Unified Modeling Language (UML)** and are especi
 
 Below is the use case diagram for the **Booking Management System**, designed using **Draw.io** and exported as `alx-booking-uc.png`.
 
-![Booking System Use Case Diagram](./images/alx-booking-uc.png)
+![Booking System Use Case Diagram](images/alx-booking-uc.png)
 
 -
