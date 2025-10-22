@@ -74,3 +74,75 @@ A strong Requirement Analysis phase lays the foundation for project success by e
 - The **right problem** is being solved
 - Resources are **efficiently utilized**
 - The end product **delivers real value** to users and stakeholders
+
+## 🧠 Key Activities in Requirement Analysis
+
+The Requirement Analysis phase consists of several structured activities that ensure all stakeholders’ needs are correctly identified, understood, and documented.  
+Below are the **five key activities** involved in this process:
+
+---
+
+### 1. 📝 Requirement Gathering
+
+This is the **first step** in understanding what stakeholders expect from the system.  
+It involves collecting raw requirements from various sources such as clients, end-users, business analysts, and domain experts.  
+**Techniques used:** interviews, questionnaires, observation, document analysis, and reviewing existing systems.
+
+> 🎯 _Goal:_ Capture all potential needs and constraints from every stakeholder involved.
+
+---
+
+### 2. 💬 Requirement Elicitation
+
+Elicitation focuses on **clarifying and uncovering hidden or implicit needs** that stakeholders may not directly express.  
+It’s about asking the right questions and engaging stakeholders to get detailed, actionable insights.
+
+**Common techniques:** brainstorming sessions, workshops, focus groups, and prototyping.
+
+> 🎯 _Goal:_ Transform broad ideas into well-understood, specific, and relevant requirements.
+
+---
+
+### 3. 📄 Requirement Documentation
+
+Once gathered and elicited, requirements are formally **documented** to create a reference point for all team members.  
+Documentation ensures consistency, clarity, and traceability throughout the SDLC.
+
+**Examples of documentation:**
+
+- Software Requirements Specification (SRS)
+- User stories and acceptance criteria
+- Use case diagrams and requirement matrices
+
+> 🎯 _Goal:_ Record requirements in a clear, structured, and accessible manner.
+
+---
+
+### 4. ⚙️ Requirement Analysis and Modeling
+
+This stage involves **analyzing the collected requirements** to identify conflicts, dependencies, priorities, and feasibility.  
+Modeling helps visualize how requirements interact with the system using diagrams and structured models.
+
+**Common modeling tools:** UML diagrams, data flow diagrams (DFDs), entity-relationship diagrams (ERDs), and process flowcharts.
+
+> 🎯 _Goal:_ Ensure the requirements are feasible, consistent, complete, and logically structured.
+
+---
+
+### 5. ✅ Requirement Validation
+
+The final step ensures that the documented requirements **accurately represent stakeholder needs** and align with business objectives.  
+Validation is typically done through reviews, walkthroughs, and stakeholder feedback sessions.
+
+**Key focus areas:**
+
+- Correctness
+- Completeness
+- Consistency
+- Testability
+
+> 🎯 _Goal:_ Confirm that the right requirements are defined before moving into design and development.
+
+---
+
+Effective execution of these five activities guarantees that the software project starts on a solid foundation — minimizing risk, enhancing quality, and ensuring stakeholder satisfaction.
