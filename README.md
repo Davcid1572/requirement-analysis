@@ -183,3 +183,50 @@ Non-functional requirements (NFRs) define **how** the system performs or under w
 - **Compatibility / Portability**: Must support modern browsers (Chrome, Firefox, Safari) and mobile devices (iOS, Android).
 
 https://miro.medium.com/v2/resize:fit:720/format:webp/1*Jv-59Dts74UJ8c1SeHAKVQ.png
+
+## 🎨 Use Case Diagrams
+
+### 🧾 What is a Use Case Diagram?
+
+A **Use Case Diagram** is a visual representation of how users (called _actors_) interact with a system to achieve specific goals.  
+It focuses on _what_ the system does — rather than _how_ it does it — helping developers and stakeholders understand functionality from the user’s perspective.
+
+Use case diagrams are part of **Unified Modeling Language (UML)** and are especially helpful in requirement analysis to visualize user interactions and system scope.
+
+### 🌟 Benefits of Use Case Diagrams
+
+- **Clarity of System Scope:** Shows the boundary between the system and external users or systems.
+- **Improved Communication:** Bridges understanding between business stakeholders and technical teams.
+- **Early Validation:** Helps confirm that all required interactions are captured before development begins.
+- **Documentation Aid:** Serves as a simple, reusable reference for design and testing teams.
+
+---
+
+### 🧍 Actors and Use Cases for the Booking System
+
+#### 👤 **Actors:**
+
+- **Customer:** Searches, books, modifies, or cancels reservations.
+- **Administrator:** Manages bookings, reviews reports, and handles user or system maintenance.
+- **Payment Gateway:** Processes transactions securely.
+
+#### 🧩 **Main Use Cases:**
+
+- Search available bookings
+- Make a reservation
+- Modify or cancel booking
+- Make payment
+- Receive confirmation notifications
+- View booking history
+- Manage bookings (Admin)
+- Generate reports (Admin)
+
+---
+
+### 🖼️ Use Case Diagram
+
+Below is the use case diagram for the **Booking Management System**, designed using **Draw.io** and exported as `alx-booking-uc.png`.
+
+![Booking System Use Case Diagram](./images/alx-booking-uc.png)
+
+-
